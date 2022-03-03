@@ -71,3 +71,8 @@ button:active .overlay {
   bottom: -.125rem;
   transition: bottom ease-in-out 250ms;
 }
+
+.sr-only {
+  position: absolute;
+  left: -99999rem;
+}
