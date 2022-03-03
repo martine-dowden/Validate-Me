@@ -5,17 +5,14 @@
     {
       "src": "./images/heart.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "maskable"
     },
     {
       "src": "./images/heart.svg",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "./images/heart.svg",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192",
+      "purpose": "maskable"
     }
   ],
   "background_color": "#971c1c",
