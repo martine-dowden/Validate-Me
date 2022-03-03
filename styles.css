@@ -1,20 +1,25 @@
+* { box-sizing: border-box; }
 body, html {
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16pt;
-}
-.container {
+  height: 100%;
+  width:100%;
+  padding: 0;
+  margin: 0;
   background-color: #333;
   background-image: radial-gradient(circle at 50%, rgba(225, 225, 225, .3), rgba(225, 225, 225, .1) 50%, #333 100%);
   background-position: center;
   background-size: contain;
-  bottom: 0;
-  left: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 1rem;
-  position: absolute;
-  right: 0;
   text-align: center;
-  top: 0;
+  height: 100%;
 }
 button {
   align-items: center;
@@ -36,6 +41,7 @@ button {
   transition: all ease-in-out 250ms;
   width: 8rem;
 }
+button { flex-shrink: 0; }
 button:focus {
   outline: none;
 }
