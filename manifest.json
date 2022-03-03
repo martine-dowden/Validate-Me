@@ -3,13 +3,13 @@
   "name": "Validate Me",
   "icons": [
     {
-      "src": "./images/heart.svg",
+      "src": "./images/heart-512.svg",
       "type": "image/svg+xml",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "./images/heart.svg",
+      "src": "./images/heart-192.svg",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
