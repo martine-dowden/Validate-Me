@@ -3,19 +3,22 @@
   "name": "Validate Me",
   "icons": [
     {
-      "src": "/images/heart.svg",
+      "src": "images/heart.svg",
       "type": "image/svg+xml",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
-      "src": "/images/heart.svg",
+      "src": "images/heart.svg",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "/images/heart.svg",
+      "src": "images/heart.svg",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
