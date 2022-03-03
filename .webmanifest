@@ -21,8 +21,8 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://martine-dowden.github.io/Validate-Me/",
   "background_color": "#971c1c",
   "display": "standalone",
-  "scope": "/"
+  "scope": "https://martine-dowden.github.io/Validate-Me/"
 }
