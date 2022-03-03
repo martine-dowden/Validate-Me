@@ -1,4 +1,5 @@
 body, html {
+  color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16pt;
 }
@@ -8,7 +9,6 @@ body, html {
   background-position: center;
   background-size: contain;
   bottom: 0;
-  color: fff;
   left: 0;
   padding: 1rem;
   position: absolute;
@@ -19,10 +19,10 @@ body, html {
 button {
   align-items: center;
   background: #971c1c;
+  color: white;
   border-radius: 50%;
   border: solid 1px #971c1c;
   box-shadow: .125rem .125rem .5rem #333;
-  color: fff;
   cursor: pointer;
   display: flex;
   font-size: 1rem;
