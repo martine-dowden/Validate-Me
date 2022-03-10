@@ -13,7 +13,8 @@
     'You\'re fantastic!',
     'You are The Machine',
     'You\'re the bomb diggity slam dunk!',
-    'Coffee!'
+    'Coffee!',
+    'You are amazing!',
   ]
 
   var button = document.getElementById('validateMe');
