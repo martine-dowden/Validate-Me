@@ -21,6 +21,14 @@ body, html {
   text-align: center;
   height: 100%;
 }
+.container > div {
+  flex-basis: 50%;
+}
+.container > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 button {
   align-items: center;
   background: #971c1c;

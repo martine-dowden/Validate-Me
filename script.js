@@ -11,7 +11,9 @@
     'I\'m so proud of you',
     'You can do this!',
     'You\'re fantastic!',
-    'You are The Machine'
+    'You are The Machine',
+    'You\'re the bomb diggity slam dunk!',
+    'Coffee!'
   ]
 
   var button = document.getElementById('validateMe');

@@ -1,0 +1,27 @@
+{
+  "name": "validate-me",
+  "version": "1.0.0",
+  "description": "A button that tells you how awesome you are",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martine-dowden/Validate-Me.git"
+  },
+  "keywords": [
+    "CSS",
+    "JavaScript",
+    "PWA"
+  ],
+  "author": "Martine Dowden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martine-dowden/Validate-Me/issues"
+  },
+  "homepage": "martine-dowden.github.io/validate-me/",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

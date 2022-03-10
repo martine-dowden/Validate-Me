@@ -6,16 +6,23 @@
       "src": "./images/heart-512.svg",
       "type": "image/svg+xml",
       "sizes": "512x512",
-      "purpose": "any"
+      "purpose": "maskable"
     },
     {
       "src": "./images/heart-192.svg",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
+    },
+    {
+      "src": "./images/heart-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ],
-  "background_color": "#971c1c",
+  "theme_color": "#971c1c",
+  "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "./"
 }

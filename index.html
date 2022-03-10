@@ -15,14 +15,21 @@
   <body>
 
     <main class="container">
-      <h1 class="sr-only">Validate Me Button</h1>
-      <button type="button" id="validateMe"> 
-          <span>Validate Me</span>
-          <div class="overlay" aria-hidden="true"></div>
-      </button>
+      <div>
+        <h1 class="sr-only">Validate Me Button</h1>
+        <button type="button" id="validateMe"> 
+            <span>Validate Me</span>
+            <div class="overlay" aria-hidden="true"></div>
+        </button>
+      </div>
       <div class="phrase" id="phraseContainer"></div>
     </main>
 
     <script src="./script.js"></script>
+    <script>
+      navigator.serviceWorker.register('./service-worker.js', {
+        scope: './'
+      });
+    </script>
   </body>
 </html>
