@@ -22,6 +22,6 @@
   },
   "homepage": "martine-dowden.github.io/validate-me/",
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.1"
   }
 }
